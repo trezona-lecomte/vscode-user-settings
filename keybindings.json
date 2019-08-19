@@ -271,5 +271,13 @@
     {
         "key": "ctrl+alt+space",
         "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+x ctrl+c",
+        "command": "workbench.action.quit"
+    },
+    {
+        "key": "cmd+q",
+        "command": "-workbench.action.quit"
     }
 ]

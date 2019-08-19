@@ -4,5 +4,6 @@
     "editor.fontSize": 15,
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
-    "diffEditor.renderSideBySide": false
+    "diffEditor.renderSideBySide": false,
+    "git.autofetch": true
 }
