@@ -255,5 +255,21 @@
     {
         "key": "ctrl+w",
         "command": "-workbench.action.switchWindow"
+    },
+    {
+        "key": "ctrl+x g",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    },
+    {
+        "key": "ctrl+cmd+space",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+alt+space",
+        "command": "-workbench.action.toggleSidebarVisibility"
     }
 ]
