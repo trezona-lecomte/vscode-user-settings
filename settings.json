@@ -3,6 +3,10 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
     "editor.formatOnSave": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
     "files.insertFinalNewline": true,
     "diffEditor.renderSideBySide": false,
     "git.autofetch": true
