@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+x",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+x",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "alt+x",
+        "command": "-workbench.action.showCommands"
+    }
+]

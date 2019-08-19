@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "PragmataPro Mono Liga",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "diffEditor.renderSideBySide": false
+}
