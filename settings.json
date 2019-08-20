@@ -10,14 +10,10 @@
     "files.insertFinalNewline": true,
     "diffEditor.renderSideBySide": false,
     "git.autofetch": true,
-    "gitlens.views.repositories.location": "gitlens",
-    "gitlens.views.fileHistory.location": "gitlens",
-    "gitlens.views.lineHistory.location": "gitlens",
-    "gitlens.views.compare.location": "gitlens",
-    "gitlens.views.search.location": "gitlens",
     "ruby.specCommand": "bundle exec rspec --no-profile --order defined",
     "ruby.specFocusTerminal": false,
     "ruby.specSaveFile": true,
     "debug.console.fontSize": 14,
-    "terminal.integrated.fontSize": 14
+    "terminal.integrated.fontSize": 14,
+    "editor.cursorStyle": "block"
 }
