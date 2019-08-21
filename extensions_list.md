@@ -1,0 +1,22 @@
+$ code --list-extensions
+adamwalzer.scss-lint
+bung87.rails
+bung87.vscode-gemfile
+castwide.solargraph
+dbaeumer.vscode-eslint
+deerawan.vscode-dash
+donjayamanne.githistory
+esbenp.prettier-vscode
+Ionide.Ionide-fsharp
+ionutvmi.path-autocomplete
+Lourenci.go-to-spec
+mrmlnc.vscode-scss
+ms-vsliveshare.vsliveshare
+ms-vsliveshare.vsliveshare-audio
+msjsdiag.debugger-for-chrome
+noku.rails-run-spec-vscode
+rebornix.ruby
+sbrink.elm
+sianglim.slim
+stkb.rewrap
+tuttieee.emacs-mcx
