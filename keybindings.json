@@ -183,29 +183,9 @@
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+l",
-    "command": "emacs-mcx.transformToLowercase",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "alt+l",
-    "command": "-emacs-mcx.transformToLowercase",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
     "key": "cmd+u",
     "command": "-cursorUndo",
     "when": "textInputFocus"
-  },
-  {
-    "key": "cmd+u",
-    "command": "emacs-mcx.transformToUppercase",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "alt+u",
-    "command": "-emacs-mcx.transformToUppercase",
-    "when": "editorTextFocus && !editorReadonly"
   },
   {
     "key": "cmd+backspace",
