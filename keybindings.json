@@ -62,12 +62,12 @@
   {
     "key": "cmd+b",
     "command": "emacs-mcx.backwardWord",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "alt+b",
     "command": "-emacs-mcx.backwardWord",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "alt+b",
@@ -77,12 +77,12 @@
   {
     "key": "ctrl+cmd+b",
     "command": "emacs-mcx.paredit.backwardSexp",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "ctrl+alt+b",
     "command": "-emacs-mcx.paredit.backwardSexp",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "cmd+v",
@@ -210,32 +210,32 @@
   {
     "key": "cmd+backspace",
     "command": "-deleteAllLeft",
-    "when": "textInputFocus && !editorReadonly"
+    "when": "isMac && textInputFocus && !editorReadonly"
   },
   {
     "key": "cmd+backspace",
     "command": "-debug.removeBreakpoint",
-    "when": "breakpointsFocused && !breakpointSelected"
+    "when": "isMac && breakpointsFocused && !breakpointSelected"
   },
   {
     "key": "cmd+backspace",
     "command": "-debug.removeWatchExpression",
-    "when": "watchExpressionsFocused && !expressionSelected"
+    "when": "isMac && watchExpressionsFocused && !expressionSelected"
   },
   {
     "key": "cmd+backspace",
     "command": "-notification.clear",
-    "when": "notificationFocus"
+    "when": "isMac && notificationFocus"
   },
   {
     "key": "cmd+backspace",
     "command": "emacs-mcx.backwardKillWord",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "alt+backspace",
     "command": "-emacs-mcx.backwardKillWord",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "ctrl+cmd+f",
