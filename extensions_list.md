@@ -1,8 +1,6 @@
 $ code --list-extensions
-adamwalzer.scss-lint
 bung87.rails
 bung87.vscode-gemfile
-castwide.solargraph
 Dart-Code.dart-code
 Dart-Code.flutter
 dbaeumer.vscode-eslint
@@ -11,9 +9,7 @@ esbenp.prettier-vscode
 Ionide.Ionide-fsharp
 ionutvmi.path-autocomplete
 kahole.magit
-karunamurti.haml
 Lourenci.go-to-spec
-mrmlnc.vscode-scss
 ms-dotnettools.csharp
 ms-vsliveshare.vsliveshare
 ms-vsliveshare.vsliveshare-audio
