@@ -2,53 +2,72 @@
   {
     "key": "cmd+x",
     "command": "-editor.action.clipboardCutAction",
-    "when": "textInputFocus && !editorReadonly"
+    "when": "isMac && textInputFocus && !editorReadonly"
   },
   {
     "key": "cmd+x",
-    "command": "workbench.action.showCommands"
+    "command": "workbench.action.showCommands",
+    "when": "isMac"
   },
   {
     "key": "alt+x",
-    "command": "-workbench.action.showCommands"
+    "command": "-workbench.action.showCommands",
+    "when": "isMac"
   },
   {
     "key": "shift+cmd+w",
-    "command": "-workbench.action.closeWindow"
+    "command": "-workbench.action.closeWindow",
+    "when": "isMac"
+  },
+  {
+    "key": "shift+ctrl+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "isWindows"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "isWindows"
   },
   {
     "key": "cmd+w",
     "command": "-workbench.action.closeWindow",
-    "when": "!editorIsOpen && !multipleEditorGroups"
+    "when": "isMac && !editorIsOpen && !multipleEditorGroups"
   },
   {
     "key": "cmd+w",
     "command": "emacs-mcx.copyRegion",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "alt+w",
     "command": "-emacs-mcx.copyRegion",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "cmd+f",
-    "command": "-actions.find"
+    "command": "-actions.find",
+    "when": "isMac"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-actions.find",
+    "when": "isWindows"
   },
   {
     "key": "cmd+f",
     "command": "emacs-mcx.forwardWord",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "alt+f",
     "command": "-emacs-mcx.forwardWord",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "cmd+g cmd+g",
     "command": "emacs-mcx.executeCommands",
-    "when": "editorFocus && findWidgetVisible"
+    "when": "isMac && editorFocus && findWidgetVisible"
   },
   {
     "key": "alt+f",
@@ -57,7 +76,8 @@
   },
   {
     "key": "cmd+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
+    "command": "-workbench.action.toggleSidebarVisibility",
+    "when": "isMac"
   },
   {
     "key": "cmd+b",
@@ -87,27 +107,27 @@
   {
     "key": "cmd+v",
     "command": "-editor.action.clipboardPasteAction",
-    "when": "textInputFocus && !editorReadonly"
+    "when": "isMac && textInputFocus && !editorReadonly"
   },
   {
     "key": "cmd+v",
     "command": "emacs-mcx.scrollDownCommand",
-    "when": "editorTextFocus && !suggestWidgetVisible"
+    "when": "isMac && editorTextFocus && !suggestWidgetVisible"
   },
   {
     "key": "alt+v",
     "command": "-emacs-mcx.scrollDownCommand",
-    "when": "editorTextFocus && !suggestWidgetVisible"
+    "when": "isMac && editorTextFocus && !suggestWidgetVisible"
   },
   {
     "key": "shift+cmd+.",
     "command": "emacs-mcx.endOfBuffer",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "shift+alt+.",
     "command": "-emacs-mcx.endOfBuffer",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "shift+alt+.",
@@ -117,22 +137,22 @@
   {
     "key": "shift+cmd+,",
     "command": "-editor.action.inPlaceReplace.up",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "shift+cmd+.",
     "command": "-editor.action.inPlaceReplace.down",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "shift+cmd+,",
     "command": "emacs-mcx.beginningOfBuffer",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "shift+alt+,",
     "command": "-emacs-mcx.beginningOfBuffer",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "shift+alt+,",
@@ -147,45 +167,47 @@
   {
     "key": "cmd+d",
     "command": "-editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus"
+    "when": "isMac && editorFocus"
   },
   {
     "key": "cmd+d",
     "command": "emacs-mcx.killWord",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "alt+d",
     "command": "-emacs-mcx.killWord",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "cmd+y",
-    "command": "-extension.runLastSpec"
+    "command": "-extension.runLastSpec",
+    "when": "isMac"
   },
   {
     "key": "cmd+y",
     "command": "emacs-mcx.yank-pop",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "alt+y",
     "command": "-emacs-mcx.yank-pop",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "cmd+l",
-    "command": "-extension.runSpecLine"
+    "command": "-extension.runSpecLine",
+    "when": "isMac"
   },
   {
     "key": "cmd+l",
     "command": "-expandLineSelection",
-    "when": "textInputFocus"
+    "when": "isMac && textInputFocus"
   },
   {
     "key": "cmd+u",
     "command": "-cursorUndo",
-    "when": "textInputFocus"
+    "when": "isMac && textInputFocus"
   },
   {
     "key": "cmd+backspace",
@@ -219,17 +241,18 @@
   },
   {
     "key": "ctrl+cmd+f",
-    "command": "-workbench.action.toggleFullScreen"
+    "command": "-workbench.action.toggleFullScreen",
+    "when": "isMac"
   },
   {
     "key": "ctrl+cmd+f",
     "command": "emacs-mcx.paredit.forwardSexp",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "ctrl+alt+f",
     "command": "-emacs-mcx.paredit.forwardSexp",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "ctrl+w",
@@ -282,7 +305,8 @@
   },
   {
     "key": "alt+cmd+s",
-    "command": "-workbench.action.files.saveAll"
+    "command": "-workbench.action.files.saveAll",
+    "when": "isMac"
   },
   {
     "key": "ctrl+h",
@@ -300,7 +324,8 @@
   },
   {
     "key": "cmd+r",
-    "command": "-extension.runAllSpecFiles"
+    "command": "-extension.runAllSpecFiles",
+    "when": "isMac"
   },
   {
     "key": "ctrl+c ctrl+v",
@@ -308,7 +333,8 @@
   },
   {
     "key": "shift+cmd+t",
-    "command": "-extension.runFileSpecs"
+    "command": "-extension.runFileSpecs",
+    "when": "isMac"
   },
   {
     "key": "ctrl+c ctrl+r",
@@ -326,10 +352,10 @@
   {
     "key": "shift+cmd+t",
     "command": "-extension.goToSpec",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
-    "key": "ctrl+u ctrl+space",
+    "key": "cmd+,",
     "command": "workbench.action.navigateBack"
   },
   {
@@ -358,11 +384,13 @@
   },
   {
     "key": "cmd+n",
-    "command": "-workbench.action.files.newUntitledFile"
+    "command": "-workbench.action.files.newUntitledFile",
+    "when": "isMac"
   },
   {
     "key": "cmd+p",
-    "command": "-workbench.action.quickOpen"
+    "command": "-workbench.action.quickOpen",
+    "when": "isMac"
   },
   {
     "key": "cmd+n",
@@ -412,7 +440,7 @@
   {
     "key": "alt+cmd+down",
     "command": "-editor.action.insertCursorBelow",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "ctrl+shift+-",
@@ -422,7 +450,7 @@
   {
     "key": "alt+cmd+up",
     "command": "-editor.action.insertCursorAbove",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "ctrl+x g",
@@ -506,5 +534,24 @@
     "key": "alt+q",
     "command": "-rewrap.rewrapComment",
     "when": "isMac && editorTextFocus"
+  },
+  {
+    "key": "cmd+.",
+    "command": "-settings.action.editFocusedSetting",
+    "when": "inSettingsSearch"
+  },
+  {
+    "key": "cmd+.",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+,",
+    "command": "-workbench.action.openSettings"
   }
 ]
