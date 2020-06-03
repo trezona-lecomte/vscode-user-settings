@@ -1,12 +1,8 @@
 {
     "editor.fontFamily": "PragmataPro Mono Liga",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "editor.formatOnSave": true,
-    "editor.rulers": [
-        80,
-        120
-    ],
+    "editor.fontSize": 14,
+    "editor.rulers": [],
     "files.insertFinalNewline": true,
     "diffEditor.renderSideBySide": false,
     "git.autofetch": true,
@@ -17,4 +13,18 @@
     "terminal.integrated.fontSize": 14,
     "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
+    "workbench.editor.showTabs": false,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.enabled": true,
+    "rubyTestExplorer.testFramework": "rspec",
+    "workbench.activityBar.visible": true,
+    "editor.folding": false,
+    "editor.formatOnSaveTimeout": 1500,
+    "editor.minimap.enabled": false,
+    "FSharp.useSdkScripts": true,
+    "dart.openDevTools": "flutter",
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "dart.lineLength": 100,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
 }
