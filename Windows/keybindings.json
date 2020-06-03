@@ -1,97 +1,96 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "ctrl+x g",
-        "command": "magit.status"
-    },
-    {
-        "key": "alt+x g",
-        "command": "-magit.status"
-    },
-    {
-        "key": "alt+x ctrl+g",
-        "command": "-magit.dispatch"
-    },
-    {
-        "key": "alt+x alt+g",
-        "command": "-magit.file-popup",
-        "when": "activeEditor"
-    },
-    {
-        "key": "ctrl+alt+h",
-        "command": "editor.action.showHover",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+i",
-        "command": "-editor.action.showHover",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+d",
-        "command": "-dart.openDevTools",
-        "when": "dart-code:dartProjectLoaded"
-    },
-    {
-        "key": "ctrl+alt+d",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+.",
-        "command": "-breadcrumbs.focusAndSelect",
-        "when": "breadcrumbsPossible"
-    },
-    {
-        "key": "ctrl+shift+.",
-        "command": "-breadcrumbs.toggleToOn",
-        "when": "!config.breadcrumbs.enabled"
-    },
-    {
-        "key": "ctrl+shift+.",
-        "command": "-editor.action.inPlaceReplace.down",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+.",
-        "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "-editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+shift+,",
-        "command": "-editor.action.inPlaceReplace.up",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+,",
-        "command": "editor.action.addSelectionToPreviousFindMatch"
-    },
-    {
-        "key": "alt+.",
-        "command": "editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
-        "key": "f12",
-        "command": "-editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
-        "key": "alt+,",
-        "command": "workbench.action.navigateBack"
-    },
-    {
-        "key": "alt+left",
-        "command": "-workbench.action.navigateBack"
-    }
+  {
+    "command": "magit.status",
+    "key": "ctrl+x g"
+  },
+  {
+    "command": "-magit.status",
+    "key": "alt+x g"
+  },
+  {
+    "command": "-magit.dispatch",
+    "key": "alt+x ctrl+g"
+  },
+  {
+    "when": "activeEditor",
+    "command": "-magit.file-popup",
+    "key": "alt+x alt+g"
+  },
+  {
+    "when": "editorTextFocus",
+    "command": "editor.action.showHover",
+    "key": "ctrl+alt+h"
+  },
+  {
+    "when": "editorTextFocus",
+    "command": "-editor.action.showHover",
+    "key": "ctrl+k ctrl+i"
+  },
+  {
+    "when": "dart-code:dartProjectLoaded",
+    "command": "-dart.openDevTools",
+    "key": "ctrl+alt+d"
+  },
+  {
+    "when": "editorTextFocus && !editorReadonly",
+    "command": "editor.action.copyLinesDownAction",
+    "key": "ctrl+alt+d"
+  },
+  {
+    "when": "editorTextFocus && !editorReadonly",
+    "command": "-editor.action.copyLinesDownAction",
+    "key": "shift+alt+down"
+  },
+  {
+    "when": "breadcrumbsPossible",
+    "command": "-breadcrumbs.focusAndSelect",
+    "key": "ctrl+shift+."
+  },
+  {
+    "when": "!config.breadcrumbs.enabled",
+    "command": "-breadcrumbs.toggleToOn",
+    "key": "ctrl+shift+."
+  },
+  {
+    "when": "editorTextFocus && !editorReadonly",
+    "command": "-editor.action.inPlaceReplace.down",
+    "key": "ctrl+shift+."
+  },
+  {
+    "when": "editorFocus",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "key": "ctrl+shift+."
+  },
+  {
+    "when": "editorFocus",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "key": "ctrl+d"
+  },
+  {
+    "when": "editorTextFocus && !editorReadonly",
+    "command": "-editor.action.inPlaceReplace.up",
+    "key": "ctrl+shift+,"
+  },
+  {
+    "command": "editor.action.addSelectionToPreviousFindMatch",
+    "key": "ctrl+shift+,"
+  },
+  {
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
+    "command": "editor.action.revealDefinition",
+    "key": "alt+."
+  },
+  {
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
+    "command": "-editor.action.revealDefinition",
+    "key": "f12"
+  },
+  {
+    "command": "workbench.action.navigateBack",
+    "key": "alt+,"
+  },
+  {
+    "command": "-workbench.action.navigateBack",
+    "key": "alt+left"
+  }
 ]
